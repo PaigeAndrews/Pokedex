@@ -5,8 +5,10 @@ import './styles/PokeList.css';
 
 const PokeList = () => {
   const cells = pokeClasses.map(pokeClass => <PokeCell key={pokeClass.id} pokeClass={pokeClass}/>)
+ 
   return (
     <section className="poke-list">
+    {cells}
     </section>
   )
 }
