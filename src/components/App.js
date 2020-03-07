@@ -7,7 +7,9 @@ import './styles/App.css';
 class App extends Component {
   constructor() {
     super();
-    this.state = {};
+    this.state = {
+      pokemon:{}
+    };
 
     this.handleOnClick = this.handleOnClick.bind(this);
   }
